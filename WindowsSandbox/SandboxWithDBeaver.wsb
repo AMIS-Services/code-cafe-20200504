@@ -1,0 +1,12 @@
+<Configuration>
+   <MappedFolders>
+     <MappedFolder>
+       <HostFolder>C:\SandboxScripts</HostFolder>
+       <ReadOnly>true</ReadOnly>
+     </MappedFolder>
+   </MappedFolders>
+   <LogonCommand>
+      <!-- Download DBeaver into Sandbox and install -->
+      <Command>C:\users\wdagutilityaccount\desktop\SandboxScripts\DBeaverDownloadAndInstall.cmd</Command>
+   </LogonCommand>
+</Configuration>
