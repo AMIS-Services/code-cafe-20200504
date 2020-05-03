@@ -10,6 +10,6 @@
      </MappedFolder>
    </MappedFolders>
    <LogonCommand>
-      <Command>C:\users\wdagutilityaccount\desktop\SandboxScripts\VSCodeInstall.cmd</Command>
+     <Command>%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "C:\users\wdagutilityaccount\desktop\SandboxScripts\InstallChocolateyVSCodeGitAndNode.ps1"</Command>
    </LogonCommand>
 </Configuration>
