@@ -1,3 +1,5 @@
+# this script should be located on the Windows Host in directory C:\SandboxScripts
+
 # Serial Package List
 $PrePackages = @(
     "powershell-core"

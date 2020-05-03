@@ -1,3 +1,5 @@
+REM this script should be located on the Windows Host in directory C:\SandboxScripts
+
 REM Download DBeaver Community Edition 
 curl -L "https://dbeaver.io/files/dbeaver-ce-latest-x86_64-setup.exe" --output C:\users\WDAGUtilityAccount\Desktop\dbeaver-ce-latest-x86_64-setup.exe
  
