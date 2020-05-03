@@ -84,5 +84,5 @@ Delete Docker image: `docker image rm <name image>`
 For PostgreSQL there are 2 scripts to create some sample tables and populate it with data:
 
 - [Create tables](./demo_create_tables_psql.sql)
-- [Sample data](./demo_insert_table_data-psql.sql)
+- [Sample data](./demo_insert_table_data_psql.sql)
 
