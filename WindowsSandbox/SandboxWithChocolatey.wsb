@@ -1,0 +1,15 @@
+<Configuration>
+   <MappedFolders>
+     <MappedFolder>
+       <HostFolder>C:\SandboxScripts</HostFolder>
+       <ReadOnly>true</ReadOnly>
+     </MappedFolder>
+     <MappedFolder>
+       <HostFolder>C:\CodingProjects</HostFolder>
+       <ReadOnly>false</ReadOnly>
+     </MappedFolder>
+   </MappedFolders>
+   <LogonCommand>
+     <Command>%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "C:\users\wdagutilityaccount\desktop\SandboxScripts\InstallChocolatey.ps1"</Command>
+   </LogonCommand>
+</Configuration>
